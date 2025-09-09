@@ -1,5 +1,5 @@
 def number_to_month(month):
-    num = int(input("Ingrse un numero entre el 1 y el 12:"))
+    num = int(input("Ingrese un numero entre el 1 y el 12:"))
     if num == 1:
         return "enero"
     elif num == 2:
