@@ -1,28 +1,27 @@
 def number_to_month(month):
-    num = int(input("Ingrese un numero entre el 1 y el 12:"))
-    if num == 1:
+    if month == 1:
         return "enero"
-    elif num == 2:
+    elif month == 2:
         return "febrero"
-    elif num == 3:
+    elif month == 3:
         return "marzo"
-    elif num == 4:
+    elif month == 4:
         return "abril"
-    elif num == 5:
+    elif month == 5:
         return "mayo"
-    elif num == 6:
+    elif month == 6:
         return "junio"
-    elif num == 7:
+    elif month == 7:
         return "julio"
-    elif num == 8:
+    elif month == 8:
         return "agosto"
-    elif num == 9:
+    elif month == 9:
         return "septiembre"
-    elif num == 10:
+    elif month == 10:
         return "octubre"
-    elif num == 11:
+    elif month == 11:
         return "noviembre"
-    elif num == 12:
+    elif month == 12:
         return "diciembre"
-    elif num < 1 or num > 12:
+    elif month < 1 or month > 12:
         return "error"
